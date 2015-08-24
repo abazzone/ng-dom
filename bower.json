@@ -1,0 +1,30 @@
+{
+  "name": "ngdom",
+  "version": "0.0.5",
+  "homepage": "https://github.com/abazzone/ng-dom",
+  "authors": [
+    "Aaron Bazzone"
+  ],
+  "description": "An AngularJS service for querying the DOM",
+  "main": "src/ngdom.js",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "ng-dom",
+    "ngdom",
+    "dom",
+    "jquery",
+    "query"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0"
+  }
+}
