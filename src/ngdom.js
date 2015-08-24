@@ -24,7 +24,15 @@
           return angular.element(query);
         }
         var element = document.querySelectorAll(query);
+        
+        if(element.length > 1)  {
+          for(var i=0; i<element.length; i=i+1)  {
+            element[i] = angular.element(element[i]);
+          }
+        }
+        
         element = angular.element(element);
+        
         return element;
     });
   }
