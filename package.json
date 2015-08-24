@@ -1,0 +1,28 @@
+{
+  "name": "ng-dom",
+  "version": "0.0.1",
+  "description": "An AngularJS service for querying the DOM.",
+  "main": "src/ngdom.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:abazzone/ng-dom.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "ng-dom",
+    "ngdom",
+    "dom",
+    "jquery",
+    "query"
+  ],
+  "author": "Aaron Bazzone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abazzone/ng-dom/issues"
+  },
+  "homepage": "https://github.com/abazzone/ng-dom#readme",
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
+}
